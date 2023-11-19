@@ -1,11 +1,28 @@
+<<<<<<< HEAD
 <log_op> ::= <conditional_branches> | and_(<log_op>,<log_op>) | or_(<log_op>,<log_op>) | not_(<log_op>) | <boolean_feature>
 
 <conditional_branches> ::= less_than_or_equal(<num_op>,<num_op>) | greater_than_or_equal(<num_op>, <num_op>)
 
 <num_op> ::= add(<num_op>,<num_op>) | sub(<num_op>,<num_op>) | mul(<num_op>,<num_op>) | pdiv(<num_op>,<num_op>) | <nonboolean_feature>
 
+=======
+<expr> ::= <expr> | if_(<conditional_branches>,<expr>,<expr>) | <log_op> | <num_op> | <feature>
+
+<log_op> ::= and_(<log_op>,<log_op>) | or_(<log_op>,<log_op>) | not_(<log_op>) | <boolean_feature>
+
+<num_op> ::= add(<num_op>,<num_op>) | sub(<num_op>,<num_op>) | mul(<num_op>,<num_op>) | pdiv(<num_op>,<num_op>) | <nonboolean_feature>
+
+<conditional_branches> ::= less_than_or_equal(<expr>,<expr>) | greater_than_or_equal(<expr>,<expr>)
+
+<feature> ::= <boolean_feature> | <nonboolean_feature>
+
+>>>>>>> a7aa481e0 ([chore] temp change -  delete afte)
 <boolean_feature> ::=  x[4]|x[5]|x[6]|x[7]|x[8]|x[9]|x[10]|x[11]|x[12]|x[13]|x[14]|x[15]|x[16]|x[17]|x[18]|x[19]|x[20]|x[21]|x[22]|x[23]|x[24]|x[25]|x[26]
 
 <nonboolean_feature> ::= x[0]|x[1]|x[2]|x[3]|<c><c>.<c><c>
 
+<<<<<<< HEAD
 <c>  ::= 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+=======
+<c>  ::= 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+>>>>>>> a7aa481e0 ([chore] temp change -  delete afte)
