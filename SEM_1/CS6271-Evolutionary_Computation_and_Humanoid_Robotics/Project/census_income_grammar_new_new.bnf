@@ -1,6 +1,6 @@
 <log_op> ::= <conditional_branches> | and_(<log_op>,<log_op>) | or_(<log_op>,<log_op>) | not_(<log_op>) | <boolean_feature>
 
-<conditional_branches> ::= less_than_or_equal(<num_op>,<num_op>) | greater_than_or_equal(<num_op>,<num_op>)
+<conditional_branches> ::= if_(<log_op>,<conditional_branches>,<conditional_branches>) | less_than_or_equal(<num_op>,<num_op>) | greater_than_or_equal(<num_op>,<num_op>)
 
 <num_op> ::= add(<num_op>,<num_op>) | sub(<num_op>,<num_op>) | mul(<num_op>,<num_op>) | pdiv(<num_op>,<num_op>) | <nonboolean_feature>
 
