@@ -1,16 +1,100 @@
 #VRML_SIM R2023b utf8
+
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/CircleArena.proto"
+
 WorldInfo {
 }
 Viewpoint {
-  orientation -0.5773 0.5773 0.5773 2.0944
-  position 0 0 10
+  orientation -0.06036281198806951 0.0009308761228682208 0.9981760688368244 3.110855481481005
+  position 0.25485383681532914 0.0019057984102651057 0.046591051889738846
 }
 TexturedBackground {
 }
 TexturedBackgroundLight {
 }
-RectangleArena {
+DEF SwarmBot Robot {
+  translation 0.02 1.8351480715055524e-08 0.004998924396192621
+  rotation 1 0 0 1.5707963297048966
+  children [
+    DEF LWheel HingeJoint {
+      jointParameters HingeJointParameters {
+      }
+      device [
+        RotationalMotor {
+        }
+      ]
+      endPoint Solid {
+        translation 0 0 -0.005
+        children [
+          Shape {
+            appearance DEF Grey PBRAppearance {
+              baseColor 0.3 0.3 0.3
+              roughness 1
+              metalness 0
+            }
+            geometry Sphere {
+              radius 0.005
+            }
+          }
+        ]
+      }
+    }
+    DEF RWheel HingeJoint {
+      jointParameters HingeJointParameters {
+      }
+      device [
+        RotationalMotor {
+        }
+      ]
+      endPoint Solid {
+        translation 0 0 0.005
+        children [
+          Shape {
+            appearance DEF Grey PBRAppearance {
+              baseColor 0.3 0.3 0.3
+              roughness 1
+              metalness 0
+            }
+            geometry Sphere {
+              radius 0.005
+            }
+          }
+        ]
+        name "solid(1)"
+      }
+    }
+    DEF MainBody Shape {
+      appearance DEF BotAppearance PBRAppearance {
+        baseColor 0.3 0.3 0.3
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        bottom FALSE
+        height 0.0105
+        radius 0.0049
+        top FALSE
+      }
+    }
+  ]
+  boundingObject DEF BotBody Shape {
+    appearance DEF BotAppearance PBRAppearance {
+      baseColor 0.3 0.3 0.3
+      roughness 1
+      metalness 0
+    }
+    geometry Capsule {
+      height 0.0105
+      radius 0.005
+      subdivision 16
+    }
+  }
+  physics Physics {
+  }
+  linearVelocity 0 1.1367337654833406e-10 1.36594537820187e-07
+  angularVelocity -2.2734678607494774e-08 0 0
+}
+CircleArena {
 }
