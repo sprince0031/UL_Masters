@@ -1,0 +1,24 @@
+16/10/2023
+Quiz questions
+
+1. Application of Minimum Edit Distance in:
+	a. Spell correction:
+		1) Non-word: suggest the non-word and other words
+		2) Homophones (paws|pause)
+		If the distance is small, recommend the next word from autocomplete e.g. misspelled cost of substitutiong one letter in word "hello" vs "hwllo"
+	b. Evaluating machine translation: having sentences in different languages and the edit distance signifies how good the translation was (to human translation). Threshold is set for calculating translation accuracy.
+	c. Evaluating Named Entity Extraction: Arthur C Doyle vs Arthur Doyle (are close, same entity), comapanies, locations. Annotated already by humans.
+	d. Evaluating Speech Recognition: transcribe audio (any model, not only nn). Test dataset as base.
+	
+2.	a. Hamming distance: only permits for substitution, compares same length strings. flaw and lawn => val 4
+		Used for comparing gene series.
+	b. Levenshtein distance: insertion, deletion, substitution => flaw lawn => del f ins n => val 2
+		
+3. Advantages of using Dynamic Programming over Recursion for computing the minimum distance:
+	* Simpler? No
+	* It's faster, avoids repeated computations as it stores results in table
+	* Memoisation: store solutions to sub-problems
+	* Iterative approach takes less memory
+	
+4. Confusion matrix for spelling errors (different to tp/fp etc):
+	* Substitution of x (wrong) for y (correct) [alphabet on both axes]
