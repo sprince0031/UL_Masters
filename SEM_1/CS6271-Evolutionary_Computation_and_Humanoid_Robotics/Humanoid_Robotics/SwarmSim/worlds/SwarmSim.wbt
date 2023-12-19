@@ -1,0 +1,382 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/solids/protos/SolidRoundedBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/CircleArena.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5883181553222235 0.5663971394570021 0.577127393677671 2.1272920359671437
+  position -0.24266447871047017 -0.03750966221014924 0.8231534181952884
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+DEF SwarmBot Robot {
+  translation -0.0623504507670925 9.246372446114967e-06 0.009598876313896325
+  rotation 0.9999990361838257 0.0009215748242449723 -0.0010384273027141543 1.568308600242962
+  children [
+    DistanceSensor {
+      translation 0.0098 0 0.003
+      rotation 0 1 0 -0.261795307179586
+      children [
+        DEF distSensor Shape {
+          appearance PBRAppearance {
+            metalness 0
+          }
+          geometry Box {
+            size 0.001 0.001 0.001
+          }
+        }
+      ]
+      name "ds_front_right"
+      boundingObject USE distSensor
+      physics Physics {
+      }
+      lookupTable [
+        0 0 0
+        0.075 1000 0
+      ]
+    }
+    DistanceSensor {
+      translation -0.0098 0 0.003
+      rotation 0 1 0 -2.8797853071795863
+      children [
+        DEF distSensor Shape {
+          appearance PBRAppearance {
+            metalness 0
+          }
+          geometry Box {
+            size 0.001 0.001 0.001
+          }
+        }
+      ]
+      name "ds_rear_right"
+      boundingObject USE distSensor
+      physics Physics {
+      }
+      lookupTable [
+        0 0 0
+        0.075 1000 0
+      ]
+    }
+    DistanceSensor {
+      translation 0.0098 0 -0.003
+      rotation 0 1 0 0.261803
+      children [
+        DEF distSensor Shape {
+          appearance PBRAppearance {
+            metalness 0
+          }
+          geometry Box {
+            size 0.001 0.001 0.001
+          }
+        }
+      ]
+      name "ds_front_left"
+      boundingObject USE distSensor
+      physics Physics {
+      }
+      lookupTable [
+        0 0 0
+        0.075 1000 0
+      ]
+    }
+    DistanceSensor {
+      translation -0.0098 0 -0.003
+      rotation 0 1 0 2.8798
+      children [
+        DEF distSensor Shape {
+          appearance PBRAppearance {
+            metalness 0
+          }
+          geometry Box {
+            size 0.001 0.001 0.001
+          }
+        }
+      ]
+      name "ds_rear_left"
+      boundingObject USE distSensor
+      physics Physics {
+      }
+      lookupTable [
+        0 0 0
+        0.075 1000 0
+      ]
+    }
+    DEF RWheel HingeJoint {
+      jointParameters HingeJointParameters {
+        position 100.216905443323
+        axis 0 0 1
+        anchor 0 0 -0.0047
+        suspensionAxis 0 1 0
+      }
+      device [
+        RotationalMotor {
+          name "wheel_motor_right"
+          controlPID 0 10 0
+        }
+      ]
+      endPoint Solid {
+        translation -1.032864305487585e-06 -1.1911205729128766e-06 -0.010000000000000002
+        rotation -0.9876959541754025 0.15638441519969587 -0.0007853586380836549 3.1316896397946765
+        children [
+          DEF Rwheel Shape {
+            appearance DEF wheel_appearance PBRAppearance {
+              baseColor 0.5 0.5 0.5
+              roughness 1
+              metalness 0
+            }
+            geometry Cylinder {
+              height 0.002
+              radius 0.01
+            }
+          }
+        ]
+        name "wheel_right"
+        boundingObject USE Rwheel
+        physics Physics {
+        }
+      }
+    }
+    DEF LWheel HingeJoint {
+      jointParameters HingeJointParameters {
+        position 100.21754542767454
+        axis 0 0 1
+        anchor 0 0 0.0047
+        suspensionAxis 0 1 0
+      }
+      device [
+        RotationalMotor {
+          name "wheel_motor_left"
+          controlPID 0 10 0
+        }
+      ]
+      endPoint Solid {
+        translation -1.0062177293329846e-06 -1.1876338767255808e-06 0.011000000000000072
+        rotation -0.9877457259105014 0.15606974930533302 -0.0007837712084165712 3.1316891363054444
+        children [
+          DEF Lwheel Shape {
+            appearance USE wheel_appearance
+            geometry Cylinder {
+              height 0.002
+              radius 0.01
+            }
+          }
+        ]
+        name "wheel_left"
+        boundingObject USE Lwheel
+        physics Physics {
+        }
+      }
+    }
+    DEF MainBody Shape {
+      appearance DEF BotAppearance PBRAppearance {
+        baseColor 0.3 0.3 0.3
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        bottom FALSE
+        height 0.02
+        radius 0.01
+        top FALSE
+      }
+    }
+  ]
+  name "swarmbot1"
+  physics Physics {
+    mass 1
+  }
+  controller "obstacleAvoidance"
+}
+DEF SwarmBot Robot {
+  translation -0.43339371882528555 -2.124636168432237e-05 0.009655968508376451
+  rotation 0.0004562539520159169 0.7068747155938068 0.7073386234940844 -3.141043120470343
+  children [
+    DistanceSensor {
+      translation 0.0098 0 0.003
+      rotation 0 1 0 -0.261795307179586
+      children [
+        DEF distSensor Shape {
+          appearance PBRAppearance {
+            metalness 0
+          }
+          geometry Box {
+            size 0.001 0.001 0.001
+          }
+        }
+      ]
+      name "ds_front_right"
+      boundingObject USE distSensor
+      physics Physics {
+      }
+      lookupTable [
+        0 0 0
+        0.075 1000 0
+      ]
+    }
+    DistanceSensor {
+      translation -0.0098 0 0.003
+      rotation 0 1 0 -2.8797853071795863
+      children [
+        DEF distSensor Shape {
+          appearance PBRAppearance {
+            metalness 0
+          }
+          geometry Box {
+            size 0.001 0.001 0.001
+          }
+        }
+      ]
+      name "ds_rear_right"
+      boundingObject USE distSensor
+      physics Physics {
+      }
+      lookupTable [
+        0 0 0
+        0.075 1000 0
+      ]
+    }
+    DistanceSensor {
+      translation 0.0098 0 -0.003
+      rotation 0 1 0 0.261803
+      children [
+        DEF distSensor Shape {
+          appearance PBRAppearance {
+            metalness 0
+          }
+          geometry Box {
+            size 0.001 0.001 0.001
+          }
+        }
+      ]
+      name "ds_front_left"
+      boundingObject USE distSensor
+      physics Physics {
+      }
+      lookupTable [
+        0 0 0
+        0.075 1000 0
+      ]
+    }
+    DistanceSensor {
+      translation -0.0098 0 -0.003
+      rotation 0 1 0 2.8798
+      children [
+        DEF distSensor Shape {
+          appearance PBRAppearance {
+            metalness 0
+          }
+          geometry Box {
+            size 0.001 0.001 0.001
+          }
+        }
+      ]
+      name "ds_rear_left"
+      boundingObject USE distSensor
+      physics Physics {
+      }
+      lookupTable [
+        0 0 0
+        0.075 1000 0
+      ]
+    }
+    DEF RWheel HingeJoint {
+      jointParameters HingeJointParameters {
+        position 100.21690585532163
+        axis 0 0 1
+        anchor 0 0 -0.0047
+        suspensionAxis 0 1 0
+      }
+      device [
+        RotationalMotor {
+          name "wheel_motor_right"
+          controlPID 0 10 0
+        }
+      ]
+      endPoint Solid {
+        translation -1.744585735193954e-06 -8.861443963506038e-06 -0.011
+        rotation -0.9876959863291629 0.1563842143372921 -0.000784917428754613 3.1316886504951995
+        children [
+          DEF Rwheel Shape {
+            appearance DEF wheel_appearance PBRAppearance {
+              baseColor 0.5 0.5 0.5
+              roughness 1
+              metalness 0
+            }
+            geometry Cylinder {
+              height 0.002
+              radius 0.01
+            }
+          }
+        ]
+        name "wheel_right"
+        boundingObject USE Rwheel
+        physics Physics {
+        }
+      }
+    }
+    DEF LWheel HingeJoint {
+      jointParameters HingeJointParameters {
+        position 100.21754576151933
+        axis 0 0 1
+        anchor 0 0 0.0047
+        suspensionAxis 0 1 0
+      }
+      device [
+        RotationalMotor {
+          name "wheel_motor_left"
+          controlPID 0 10 0
+        }
+      ]
+      endPoint Solid {
+        translation -3.223282546120361e-05 -0.00010463079865788835 0.011
+        rotation 0.9722803306329143 0.23380357618751157 0.0026165676527324607 3.1501454070320967
+        children [
+          DEF Lwheel Shape {
+            appearance USE wheel_appearance
+            geometry Cylinder {
+              height 0.002
+              radius 0.01
+            }
+          }
+        ]
+        name "wheel_left"
+        boundingObject USE Lwheel
+        physics Physics {
+        }
+      }
+    }
+    DEF MainBody Shape {
+      appearance DEF BotAppearance PBRAppearance {
+        baseColor 0.3 0.3 0.3
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        bottom FALSE
+        height 0.02
+        radius 0.01
+        top FALSE
+      }
+    }
+  ]
+  name "swarmbot2"
+  physics Physics {
+    mass 1
+  }
+  controller "obstacleAvoidance"
+}
+SolidRoundedBox {
+  translation -0.25 0 0.024894503001311873
+  size 0.05 0.05 0.05
+  borderRadius 0.025
+  physics Physics {
+  }
+}
+CircleArena {
+}
