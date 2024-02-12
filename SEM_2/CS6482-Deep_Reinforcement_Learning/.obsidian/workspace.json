@@ -25,19 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture 1 - Introduction, History of Learning and the Perceptron/Purpose of bias in a perceptron system.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "39ec084b54ebf457",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lecture 2 - MLPs/12-02-2024 Lecture 2 Notes.md",
+                "file": "Lecture 1 - Introduction, History of Learning and the Perceptron/29-01-2024 Lecture 1 Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture 2 - MLPs/12-02-2024 Lecture 2 Notes.md",
+                "file": "Lecture 1 - Introduction, History of Learning and the Perceptron/29-01-2024 Lecture 1 Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture 2 - MLPs/12-02-2024 Lecture 2 Notes.md",
+                "file": "Lecture 1 - Introduction, History of Learning and the Perceptron/29-01-2024 Lecture 1 Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lecture 2 - MLPs/12-02-2024 Lecture 2 Notes.md"
+                "file": "Lecture 1 - Introduction, History of Learning and the Perceptron/29-01-2024 Lecture 1 Notes.md"
               }
             }
           }
@@ -183,15 +171,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "39ec084b54ebf457",
+  "active": "bc3631e4f2459814",
   "lastOpenFiles": [
+    "Lecture 1 - Introduction, History of Learning and the Perceptron/Physical Symbol System Hypothesis (PSSH).md",
+    "Lecture 1 - Introduction, History of Learning and the Perceptron/Purpose of bias in a perceptron system.md",
+    "AI Winters.md",
+    "Lecture 1 - Introduction, History of Learning and the Perceptron/29-01-2024 Lecture 1 Notes.md",
     "Lecture 1 - Introduction, History of Learning and the Perceptron/Lecture 1 - Introduction, Perceptrion.canvas",
     "Lecture 2 - MLPs/12-02-2024 Lecture 2 Notes.md",
     "Images/Perceptron architecture.png",
     "Images/Rowley's MLP Architecture for face detection.png",
-    "Lecture 1 - Introduction, History of Learning and the Perceptron/Physical Symbol System Hypothesis (PSSH).md",
-    "Lecture 1 - Introduction, History of Learning and the Perceptron/29-01-2024 Lecture 1 Notes.md",
-    "Lecture 1 - Introduction, History of Learning and the Perceptron/Purpose of bias in a perceptron system.md",
     "Images",
     "Images/Biological neuron structure.png",
     "Lecture 1 - Introduction, History of Learning and the Perceptron/POE (Phylogenetic, Ontogenetic and Epicgenetic) learning model.md",

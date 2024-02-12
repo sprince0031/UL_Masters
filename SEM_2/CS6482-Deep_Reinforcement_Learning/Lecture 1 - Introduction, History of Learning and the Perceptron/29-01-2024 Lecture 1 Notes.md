@@ -55,7 +55,6 @@ If data is linearly separable, a perceptron system can learn a clear decision bo
 
 ### Look up:
 - Alpha GO, Alpha Fold
-- AI Winters
 	- When
 	- Why
 	- What
