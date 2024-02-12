@@ -1,5 +1,16 @@
 # Lecture notes
 ---
+### AI Winters
+When, why and what?
+
+### PSSH
+Examples
+- ELISA
+- MYCIN
+### Factors contributing to explosion in AI
+- Capable hardware - GPUs
+- Good frameworks - Tensorflow, pytorch, etc.,
+- 
 ### Markov problem  
 The current problem has all the data and information required to solve it.
 
@@ -44,14 +55,19 @@ If data is linearly separable, a perceptron system can learn a clear decision bo
 
 ### Look up:
 - Alpha GO, Alpha Fold
+- AI Winters
+	- When
+	- Why
+	- What
 - Monte Carlo tree search
-- Physical Symbol System Hypotheis (PSSH)
-  - What?
-  - Examples
-  - Problems with PSSH
+- [[Physical Symbol System Hypothesis (PSSH)]]
+	- What?
+	- Examples
+	- Problems with PSSH
 - Rodney Brooks and his hypotheis
-- POE (Phylogenetuc, Ontogenetic and Epicgenetic) learning model
-  - Does the formation of a hard cyst like outer layer in a bacterium trying to survive in the Arctic indicate to it exhibiting intelligence?
+- [[POE (Phylogenetic, Ontogenetic and Epicgenetic) learning model]]
+  - Does the formation of a hard cyst like outer layer in a bacterium trying to survive in the Arctic indicate it exhibiting intelligence?
 - Neural Network Based Face Detection; H. Rowley, S. Balija and T. Kanade; January 1998 - what was the justification to the architecture? - what were the results like?
 - D. Pomerlau, ALVINN
-- Purpose of bias in a perceptron system
+- [[Purpose of bias in a perceptron system]]
+---

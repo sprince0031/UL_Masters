@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"7361081df24e8e14","type":"text","text":"Introduction, history of learning and the perceptron model","x":-210,"y":-460,"width":340,"height":80},
+		{"id":"699bbc374a051ef8","type":"text","text":"[[29-01-2024 Lecture 1 Notes]]","x":-222,"y":-340,"width":365,"height":79},
+		{"id":"a49a39f649736365","type":"file","file":"Lecture 1 - Introduction, History of Learning and the Perceptron/Physical Symbol System Hypothesis (PSSH).md","x":-960,"y":-100,"width":400,"height":400},
+		{"id":"2f621abdbc6f1f26","type":"file","file":"Lecture 1 - Introduction, History of Learning and the Perceptron/Purpose of bias in a perceptron system.md","x":480,"y":-100,"width":400,"height":400},
+		{"id":"f7ef63fb1d692dd6","type":"file","file":"Lecture 1 - Introduction, History of Learning and the Perceptron/POE (Phylogenetic, Ontogenetic and Epicgenetic) learning model.md","x":-240,"y":-100,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"aed6dcaece0da429","fromNode":"7361081df24e8e14","fromSide":"bottom","toNode":"699bbc374a051ef8","toSide":"top"},
+		{"id":"0a1e5bc34b3ba21b","fromNode":"699bbc374a051ef8","fromSide":"bottom","toNode":"a49a39f649736365","toSide":"top"},
+		{"id":"7f028c86ca345ad0","fromNode":"699bbc374a051ef8","fromSide":"bottom","toNode":"f7ef63fb1d692dd6","toSide":"top"},
+		{"id":"66999aa641e603bf","fromNode":"699bbc374a051ef8","fromSide":"bottom","toNode":"2f621abdbc6f1f26","toSide":"top"}
+	]
+}
