@@ -38,7 +38,7 @@
 - Refer slide #16
 	 ![[Perceptron architecture.png]]
 
-### Backpropagation algorithm
+### Back-propagation algorithm
 Refer slides #17 - #21
 - Architecture in slide #21 is an example where we can augment training data using hidden layers that can compress features.
 
@@ -47,6 +47,10 @@ Refer slides #17 - #21
 - High learning rate performs well at first but then fails to reach the optimal minimum. 
 - Slow learning rate takes too long to arrive at the optimal minimum.
 - Hence a decaying learning rate where it starts high and then decays its rate is used to optimise this. 
+
+### Convolution 
+- Multiple kernels generate multiple outputs.
+- Weight sharing
 
 ### Look up
 - Guidance for initialisation of weights.
@@ -57,3 +61,17 @@ Refer slides #17 - #21
 	- Geoffrey Hinton resigned from the board of AI at Google in light of ethical concerns with AI.
 - How to characterise training data? How much data is sufficient? Is the data generalised over a binomial distribution?
 - Current pathway that AI is on, does it pose a threat to humanity? If there are threats, how do we counteract them?
+
+### To-do
+- [ ] Download, inspect and run Nielsen's MLP code for MNIST.
+- [ ] Look through back propagation code.
+- [ ] Look at self-backpropagation.
+- [ ] Run test.py
+	- [ ] Only run network 1
+#### For CNN assignment
+- [ ] Deliberately try and engineer over-fitting  and under-fitting the model.
+	- [ ] Increase neurons and layers in architecture to try and engineer an over-fit i.e., make the model more complex for example.
+- [ ] Explore features in the data set.
+- [ ] Use regularisers (l1, l2).
+- [ ] Use citeitright for references.
+- [ ] Use architectures that have not been covered in the lectures. Use state-of-art architectures like YOLO.

@@ -20,12 +20,36 @@
             }
           },
           {
+            "id": "e0d50950e47d3595",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lecture 4 -/19-02-2024 Lecture 4 Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "bc3631e4f2459814",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture 1 - Introduction, History of Learning and the Perceptron/29-01-2024 Lecture 1 Notes.md",
+                "file": "Lecture 3 -/19-02-2024 Lecture 3 Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "88e03ecd12ba8ff0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lecture 2 - MLPs/12-02-2024 Lecture 2 Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture 1 - Introduction, History of Learning and the Perceptron/29-01-2024 Lecture 1 Notes.md",
+                "file": "Lecture 4 -/19-02-2024 Lecture 4 Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture 1 - Introduction, History of Learning and the Perceptron/29-01-2024 Lecture 1 Notes.md",
+                "file": "Lecture 4 -/19-02-2024 Lecture 4 Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lecture 1 - Introduction, History of Learning and the Perceptron/29-01-2024 Lecture 1 Notes.md"
+                "file": "Lecture 4 -/19-02-2024 Lecture 4 Notes.md"
               }
             }
           }
@@ -171,20 +195,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bc3631e4f2459814",
+  "active": "e0d50950e47d3595",
   "lastOpenFiles": [
+    "Lecture 3 -/19-02-2024 Lecture 3 Notes.md",
+    "Lecture 4 -/19-02-2024 Lecture 4 Notes.md",
+    "Lecture 4 -",
+    "Images/Pasted image 20240219112422.png",
+    "Lecture 2 - MLPs/12-02-2024 Lecture 2 Notes.md",
+    "Lecture 1 - Introduction, History of Learning and the Perceptron/29-01-2024 Lecture 1 Notes.md",
+    "Assessments.md",
+    "Lecture 3 -",
     "Lecture 1 - Introduction, History of Learning and the Perceptron/Physical Symbol System Hypothesis (PSSH).md",
     "Lecture 1 - Introduction, History of Learning and the Perceptron/Purpose of bias in a perceptron system.md",
     "AI Winters.md",
-    "Lecture 1 - Introduction, History of Learning and the Perceptron/29-01-2024 Lecture 1 Notes.md",
     "Lecture 1 - Introduction, History of Learning and the Perceptron/Lecture 1 - Introduction, Perceptrion.canvas",
-    "Lecture 2 - MLPs/12-02-2024 Lecture 2 Notes.md",
     "Images/Perceptron architecture.png",
     "Images/Rowley's MLP Architecture for face detection.png",
     "Images",
     "Images/Biological neuron structure.png",
     "Lecture 1 - Introduction, History of Learning and the Perceptron/POE (Phylogenetic, Ontogenetic and Epicgenetic) learning model.md",
-    "Assessments.md",
     "Lecture 2 - MLPs",
     "Lecture 1 - Introduction, History of Learning and the Perceptron",
     "().md",
