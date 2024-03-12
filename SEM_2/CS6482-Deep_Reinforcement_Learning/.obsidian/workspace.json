@@ -59,6 +59,18 @@
             }
           },
           {
+            "id": "50799ab9f72b5764",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lecture 7 - RL - Policies/11-03-2024 Lecture 7 Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "bc3631e4f2459814",
             "type": "leaf",
             "state": {
@@ -103,7 +115,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -169,7 +181,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture 6 - Reinforcement Learning/04-03-2024 Lecture 6 Notes.md",
+                "file": "Lecture 7 - RL - Policies/11-03-2024 Lecture 7 Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture 6 - Reinforcement Learning/04-03-2024 Lecture 6 Notes.md",
+                "file": "Lecture 7 - RL - Policies/11-03-2024 Lecture 7 Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,7 +221,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lecture 6 - Reinforcement Learning/04-03-2024 Lecture 6 Notes.md"
+                "file": "Lecture 7 - RL - Policies/11-03-2024 Lecture 7 Notes.md"
               }
             }
           }
@@ -230,11 +242,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c49cc25d2f4334da",
+  "active": "50799ab9f72b5764",
   "lastOpenFiles": [
+    "CS6482-DRL-Assign1-Sem2AY2324.pdf",
+    "Unconfirmed 865544.crdownload",
+    "Lecture 6 - Reinforcement Learning/04-03-2024 Lecture 6 Notes.md",
+    "Lecture 7 - RL - Policies/11-03-2024 Lecture 7 Notes.md",
+    "Lecture 7 - RL - Policies",
     "Pasted image 20240304115650.png",
     "Assessments.md",
-    "Lecture 6 - Reinforcement Learning/04-03-2024 Lecture 6 Notes.md",
     "Lecture 2 - MLPs/12-02-2024 Lecture 2 Notes.md",
     "Lecture 6 - Reinforcement Learning",
     "CS4287-SampleMidterm-S1AY2223.pdf",
