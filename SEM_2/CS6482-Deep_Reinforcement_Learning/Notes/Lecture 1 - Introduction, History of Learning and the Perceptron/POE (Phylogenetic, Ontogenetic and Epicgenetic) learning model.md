@@ -22,4 +22,8 @@ The bacterium does not have ontogenic capabilities however because by nature, a 
 
 Thus, one may conclude that the bacterium in question exhibits a lower form of intelligence. Hence, our definition of "intelligence" should inform our decision to classify it as an intelligent organism or not.
 
-Purpose of bias in a perceptron system
+Purpose of bias in a perceptron system...?
+
+---
+#### Further reading:
+- [The POE Model of Bio-Inspired Hardware Systems | Towards AI](https://towardsai.net/p/machine-learning/the-poe-model-of-bio-inspired-hardware-systems)

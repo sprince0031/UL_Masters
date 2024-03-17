@@ -28,7 +28,7 @@
 
 ### Multi-Layer Perceptrons (MLPs)
 - Need to re-purpose the gradient descent algorithm for hidden layers in an MLP architecture.
-- Henry Rowely's MLP architecture for face detection
+- [Henry Rowely's MLP architecture for face detection](https://www.ri.cmu.edu/pub_files/pub1/rowley_henry_1996_3/rowley_henry_1996_3.pdf)
 	- ![[Rowley's MLP Architecture for face detection.png]]
 	- Got 70-80% of accuracy
 	- Could not increase the accuracy by much more with the MLP architecture.

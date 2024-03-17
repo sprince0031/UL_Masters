@@ -4,118 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "f6e3d4d8405d24d7",
+        "id": "4cc18530c73cac32",
         "type": "tabs",
+        "dimension": 59.22174840085288,
         "children": [
           {
-            "id": "10208bfa4db39824",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Lecture 1 - Introduction, History of Learning and the Perceptron/Lecture 1 - Introduction, Perceptrion.canvas",
-                "viewState": {
-                  "x": -40,
-                  "y": -80,
-                  "zoom": -0.360941755237934
-                }
-              }
-            }
-          },
-          {
-            "id": "e0d50950e47d3595",
+            "id": "d6fc26baf5f0b04b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture 1 - Introduction, History of Learning and the Perceptron/29-01-2024 Lecture 1 Notes.md",
+                "file": "Assignment1/CS6482-Assign1-23007575-23052058.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "88e03ecd12ba8ff0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lecture 2 - MLPs/12-02-2024 Lecture 2 Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c49cc25d2f4334da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lecture 6 - Reinforcement Learning/04-03-2024 Lecture 6 Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "50799ab9f72b5764",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lecture 7 - RL - Policies/11-03-2024 Lecture 7 Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bc3631e4f2459814",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lecture 3 -/19-02-2024 Lecture 3 Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "43351d5ae1dacc61",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lecture 4 -/19-02-2024 Lecture 4 Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3f587e8796c58519",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "midterm_deep_reinf.pdf"
-              }
-            }
-          },
-          {
-            "id": "29b39c4eef67a866",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "CS4287-SampleMidterm-S1AY2223.pdf"
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
+      },
+      {
+        "id": "0815984131bba4bd",
+        "type": "tabs",
+        "dimension": 40.77825159914712,
+        "children": [
+          {
+            "id": "99a89f2599edd812",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Assignment1/CS6482-DRL-Assign1-Sem2AY2324.pdf"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -181,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture 7 - RL - Policies/11-03-2024 Lecture 7 Notes.md",
+                "file": "Assignment1/CS6482-Assign1-23007575-23052058.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture 7 - RL - Policies/11-03-2024 Lecture 7 Notes.md",
+                "file": "Assignment1/CS6482-Assign1-23007575-23052058.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lecture 7 - RL - Policies/11-03-2024 Lecture 7 Notes.md"
+                "file": "Assignment1/CS6482-Assign1-23007575-23052058.md"
               }
             }
           }
@@ -242,36 +164,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "50799ab9f72b5764",
+  "active": "d6fc26baf5f0b04b",
   "lastOpenFiles": [
-    "CS6482-DRL-Assign1-Sem2AY2324.pdf",
-    "Unconfirmed 865544.crdownload",
-    "Lecture 6 - Reinforcement Learning/04-03-2024 Lecture 6 Notes.md",
+    "Assignment1/content/caltech101/101_ObjectCategories.tar.gz",
+    "Assignment1/content/caltech101",
+    "Assignment1/content",
+    "Assignment1/datasets/caltech101/101_ObjectCategories.tar.gz",
+    "Assignment1/datasets/caltech101",
+    "Assignment1/datasets",
+    "Notes/Lecture 2 - MLPs/12-02-2024 Lecture 2 Notes.md",
+    "Assignment1/CS6482-Assign1-23007575-23052058.md",
+    "Notes/Lecture 1 - Introduction, History of Learning and the Perceptron/POE (Phylogenetic, Ontogenetic and Epicgenetic) learning model.md",
+    "Assignment1/lu2869455axn.tmp",
+    "Assignment1/CS6482-Assign1-23007575-23052058.docx",
+    "Assignment1/CS6482-Assign1-23007575-23052058.pdf",
+    "Assignment1/CS6482-DRL-Assign1-Sem2AY2324.pdf",
+    "CS6482-Assign1-23007575-23052058.docx",
+    "Notes/Assessments.md",
+    "Notes/Lecture 1 - Introduction, History of Learning and the Perceptron/29-01-2024 Lecture 1 Notes.md",
+    "Notes/Lecture 1 - Introduction, History of Learning and the Perceptron/Lecture 1 - Introduction, Perceptrion.canvas",
     "Lecture 7 - RL - Policies/11-03-2024 Lecture 7 Notes.md",
-    "Lecture 7 - RL - Policies",
-    "Pasted image 20240304115650.png",
+    "Lecture 7 - RL - Policies/14-03-2024 Lecture 8 Notes.md",
+    "Lecture 8 - RL - continued/Untitled.md",
+    "Lecture 4 -/19-02-2024 Lecture 4 Notes.md",
+    "Lecture 3 -/19-02-2024 Lecture 3 Notes.md",
+    "Images/Pasted image 20240304115650.png",
+    "Lecture 6 - Reinforcement Learning/04-03-2024 Lecture 6 Notes.md",
     "Assessments.md",
     "Lecture 2 - MLPs/12-02-2024 Lecture 2 Notes.md",
-    "Lecture 6 - Reinforcement Learning",
-    "CS4287-SampleMidterm-S1AY2223.pdf",
-    "Lecture 4 -/19-02-2024 Lecture 4 Notes.md",
-    "midterm_deep_reinf.pdf",
-    "Lecture 3 -/19-02-2024 Lecture 3 Notes.md",
     "Lecture 1 - Introduction, History of Learning and the Perceptron/29-01-2024 Lecture 1 Notes.md",
     "Lecture 1 - Introduction, History of Learning and the Perceptron/Lecture 1 - Introduction, Perceptrion.canvas",
-    "Lecture 4 -",
     "Images/Pasted image 20240219112422.png",
-    "Lecture 3 -",
     "Lecture 1 - Introduction, History of Learning and the Perceptron/Physical Symbol System Hypothesis (PSSH).md",
     "Lecture 1 - Introduction, History of Learning and the Perceptron/Purpose of bias in a perceptron system.md",
     "AI Winters.md",
     "Images/Perceptron architecture.png",
     "Images/Rowley's MLP Architecture for face detection.png",
-    "Images",
     "Images/Biological neuron structure.png",
     "Lecture 1 - Introduction, History of Learning and the Perceptron/POE (Phylogenetic, Ontogenetic and Epicgenetic) learning model.md",
-    "Lecture 2 - MLPs",
-    "Lecture 1 - Introduction, History of Learning and the Perceptron",
     "().md",
     "Does the formation of a hard cyst like outer layer in a bacterium trying to survive in the Arctic indicate it exhibiting intelligence?.md",
     "POE (Phylogenetic, Ontogenetic and Epicgenetic) learning model][[.md"
