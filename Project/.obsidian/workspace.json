@@ -33,11 +33,9 @@
             "id": "b45ddedabd8d816b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Notes/Links to resources.md",
-                "mode": "source",
-                "source": false
+                "file": "MSCAIML - Dissertation Setup Form 2324 Siddharth Prince 23052058.pdf"
               }
             }
           },
@@ -118,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Links to resources.md",
+                "file": "MSCAIML - Dissertation Setup Form 2324 Siddharth Prince 23052058.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Links to resources.md",
+                "file": "MSCAIML - Dissertation Setup Form 2324 Siddharth Prince 23052058.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Links to resources.md"
+                "file": "MSCAIML - Dissertation Setup Form 2324 Siddharth Prince 23052058.pdf"
               }
             }
           }
@@ -181,8 +179,8 @@
   },
   "active": "b45ddedabd8d816b",
   "lastOpenFiles": [
-    "LiteratureReview/A_Multi_Stain_Breast_Cancer_Histological_Whole_Slide_Image_Data_Set_from_Routine_Diagnostics_Nature_s41597-023-02422-6.pdf",
     "Notes/Links to resources.md",
+    "LiteratureReview/A_Multi_Stain_Breast_Cancer_Histological_Whole_Slide_Image_Data_Set_from_Routine_Diagnostics_Nature_s41597-023-02422-6.pdf",
     "LiteratureReview/Machine_Learning_and_Deep_Learning_Techniques_for_Breast_Cancer_Diagnosis_and_Classification_s00432-023-04956-z.pdf",
     "LiteratureReview/Deep_Learning_Based_Automatic_Immune_Cell_Detection_for_Immunohistochemistry_Images_springer_978-3-319-10581-9.pdf",
     "LiteratureReview/Unconfirmed 761063.crdownload",
