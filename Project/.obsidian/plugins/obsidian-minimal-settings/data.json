@@ -1,7 +1,7 @@
 {
   "theme": "moonstone",
   "lightStyle": "minimal-light",
-  "darkStyle": "minimal-dark",
+  "darkStyle": "minimal-dark-black",
   "lightScheme": "minimal-default-light",
   "darkScheme": "minimal-flexoki-dark",
   "editorFont": "",
@@ -11,7 +11,7 @@
   "maxWidth": 88,
   "textNormal": 16,
   "textSmall": 13,
-  "imgGrid": false,
+  "imgGrid": true,
   "imgWidth": "img-default-width",
   "tableWidth": "table-default-width",
   "iframeWidth": "iframe-default-width",
