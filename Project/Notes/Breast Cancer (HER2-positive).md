@@ -18,5 +18,5 @@ The Human Epidermal growth factor Receptor 2 (HER2)-positive breast cancer indic
 | +2            | a. **Weak to moderate membrane staining** with uneven brownish yellow coloration in ***>10% of invasive tumor cells***. <br><br>b. ***≤10% of invasive tumor cells*** have circumferential membrane staining which is **complete, intense, and has brownish coloration**. | Equivocal (low expression if the slide is ISH-negative, positive if it is ISH-positive.) |
 | +3            | ***>10% of invasive tumor cells*** have circumferential membrane **staining which is complete, intense, and has brownish coloration**.                                                                                                                                    | Positive                                                                                 |
 ## Visual example for scoring levels
-![[IHC Score Visualisation Example.png]]
+![IHC Score Visualisation Example.png](https://github.com/sprince0031/UL_Masters/blob/70c9cf7c357cb8e3c6c7eaa5e7203a6f0e814f4a/Project/Images/IHC%20Score%20Visualisation%20Example.png)  
 Above picture reference taken from [University of Warwick's HER2 challenge background information page](https://warwick.ac.uk/fac/cross_fac/tia/data/her2contest/background).
