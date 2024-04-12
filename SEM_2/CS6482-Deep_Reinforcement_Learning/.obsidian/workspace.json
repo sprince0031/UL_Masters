@@ -44,6 +44,22 @@
             }
           }
         ]
+      },
+      {
+        "id": "06b15b0476d5a743",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "00abaf9ed8e4bdcd",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Assignment2/CS6482-DRL-Assign2-Sem2AY2324-v1.pdf"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Lecture 8 - RL - continued/04-04-2024 Lecture 10 Notes.md",
+                "file": "Assignment2/CS6482-DRL-Assign2-Sem2AY2324-v1.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Lecture 8 - RL - continued/04-04-2024 Lecture 10 Notes.md",
+                "file": "Assignment2/CS6482-DRL-Assign2-Sem2AY2324-v1.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Lecture 8 - RL - continued/04-04-2024 Lecture 10 Notes.md"
+                "file": "Assignment2/CS6482-DRL-Assign2-Sem2AY2324-v1.pdf"
               }
             }
           }
@@ -170,12 +186,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "09afa51b16ec5713",
+  "active": "00abaf9ed8e4bdcd",
   "lastOpenFiles": [
-    "Notes/Lecture 7 - RL - Policies/11-03-2024 Lecture 7 Notes.md",
-    "Notes/Lecture 7 - RL - Policies/14-03-2024 Lecture 8 Notes.md",
     "Notes/Lecture 8 - RL - continued/04-04-2024 Lecture 10 Notes.md",
     "Assignment2/CS6482-DRL-Assign2-Sem2AY2324-v1.pdf",
+    "Notes/Lecture 7 - RL - Policies/11-03-2024 Lecture 7 Notes.md",
+    "Notes/Lecture 7 - RL - Policies/14-03-2024 Lecture 8 Notes.md",
     "Assignment2/CS6482-Assign2--RL-23052058-23007575.ipynb",
     "Assignment1/CS6482-DRL-Assign1-Sem2AY2324.pdf",
     "Assignment1/CS6482-Assign1-23007575-23052058.md",

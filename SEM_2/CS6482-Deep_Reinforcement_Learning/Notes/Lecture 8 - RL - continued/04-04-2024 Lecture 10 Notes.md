@@ -64,7 +64,7 @@ Reference slides: [DQN Variants](https://learn.ul.ie/d2l/le/lessons/17967/topics
 ## Maximisation bias in Q-learning
 
 ## Double Q-learning
-- Where did the value "1.3" come from (slide #9)
+- Where did the value "1.3" come from? (slide #9)
 
 ## DQN Atari: Architecture
 - Input 84 x 84 x 4 (4 images concatenated to capture trajectories)
