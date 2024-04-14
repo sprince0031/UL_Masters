@@ -55,7 +55,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Assignment2/CS6482-DRL-Assign2-Sem2AY2324-v1.pdf"
+                "file": "Assignment1/CS6482-Assign1-23007575-23052058.pdf"
               }
             }
           }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Assignment2/CS6482-DRL-Assign2-Sem2AY2324-v1.pdf",
+                "file": "Assignment1/CS6482-Assign1-23007575-23052058.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Assignment2/CS6482-DRL-Assign2-Sem2AY2324-v1.pdf",
+                "file": "Assignment1/CS6482-Assign1-23007575-23052058.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Assignment2/CS6482-DRL-Assign2-Sem2AY2324-v1.pdf"
+                "file": "Assignment1/CS6482-Assign1-23007575-23052058.pdf"
               }
             }
           }
@@ -188,9 +188,12 @@
   },
   "active": "00abaf9ed8e4bdcd",
   "lastOpenFiles": [
+    "Assignment2/CS6482-DRL-Assign2-Sem2AY2324-v1.pdf",
+    "Assignment2/models/policy_qnetwork.pt",
+    "Assignment2/models/target_qnetwork.pt",
+    "Assignment2/models",
     "Assignment2/CS6482-Assign2--RL-23052058-23007575_experimental.ipynb",
     "Notes/Lecture 8 - RL - continued/04-04-2024 Lecture 10 Notes.md",
-    "Assignment2/CS6482-DRL-Assign2-Sem2AY2324-v1.pdf",
     "Notes/Lecture 7 - RL - Policies/11-03-2024 Lecture 7 Notes.md",
     "Notes/Lecture 7 - RL - Policies/14-03-2024 Lecture 8 Notes.md",
     "Assignment2/CS6482-Assign2--RL-23052058-23007575.ipynb",
@@ -210,9 +213,6 @@
     "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/yin_yang/image_0052.jpg",
     "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/yin_yang/image_0051.jpg",
     "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/yin_yang",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/wrench",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/windsor_chair",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/wild_cat",
     "Notes/Lecture 2 - MLPs/12-02-2024 Lecture 2 Notes.md",
     "Notes/Lecture 1 - Introduction, History of Learning and the Perceptron/POE (Phylogenetic, Ontogenetic and Epicgenetic) learning model.md",
     "Notes/Assessments.md",

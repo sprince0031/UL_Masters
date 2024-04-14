@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "366152a8c50bb6a6",
+            "id": "e116a85dfe596e78",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "LiteratureReview/Immunohistochemical_HER2_Recognition_and_Analysis_of_Breast_Cancer_Based_on_Deep_Learning_diagnostics-13-00263-with-cover.pdf"
+                "file": "MSCAIML - Dissertation Setup Form 2324 Siddharth Prince 23052058.pdf"
               }
             }
           },
@@ -30,27 +30,39 @@
             }
           },
           {
-            "id": "b45ddedabd8d816b",
+            "id": "19507a4cacfb80da",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "MSCAIML - Dissertation Setup Form 2324 Siddharth Prince 23052058.pdf"
+                "file": "LiteratureReview/A_Systematic_Literature_Review_of_Breast_Cancer_Diagnosis_Using_Machine_Intelligence_Techniques_springer-s11831-022-09738-3.pdf"
               }
             }
           },
           {
-            "id": "a3b845158fdc009f",
+            "id": "c900d2e37543b811",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Breast Cancer (HER2-positive).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c335a6cca4fb8d84",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "LiteratureReview/Machine_Learning_and_Deep_Learning_Techniques_for_Breast_Cancer_Diagnosis_and_Classification_s00432-023-04956-z.pdf"
+                "file": "LiteratureReview/Immunohistochemical_HER2_Recognition_and_Analysis_of_Breast_Cancer_Based_on_Deep_Learning_diagnostics-13-00263-with-cover.pdf"
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -116,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MSCAIML - Dissertation Setup Form 2324 Siddharth Prince 23052058.pdf",
+                "file": "Notes/Breast Cancer (HER2-positive).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MSCAIML - Dissertation Setup Form 2324 Siddharth Prince 23052058.pdf",
+                "file": "Notes/Breast Cancer (HER2-positive).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MSCAIML - Dissertation Setup Form 2324 Siddharth Prince 23052058.pdf"
+                "file": "Notes/Breast Cancer (HER2-positive).md"
               }
             }
           }
@@ -177,19 +189,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b45ddedabd8d816b",
+  "active": "c900d2e37543b811",
   "lastOpenFiles": [
+    "LiteratureReview/HER2_Molecular_Marker_Scoring_Using_Transfer_Learning_and_Decision_Level_Fusion_s10278-021-00442-5.pdf",
+    "LiteratureReview/A_Systematic_Literature_Review_of_Breast_Cancer_Diagnosis_Using_Machine_Intelligence_Techniques_springer-s11831-022-09738-3.pdf",
+    "LiteratureReview/Immunohistochemical_HER2_Recognition_and_Analysis_of_Breast_Cancer_Based_on_Deep_Learning_diagnostics-13-00263-with-cover.pdf",
+    "LiteratureReview/pathmanathan2012.pdf",
+    "LiteratureReview/pathmanathan2012.pdf.crdownload",
+    "MSCAIML - Dissertation Setup Form 2324 Siddharth Prince 23052058.pdf",
     "Notes/Links to resources.md",
     "LiteratureReview/A_Multi_Stain_Breast_Cancer_Histological_Whole_Slide_Image_Data_Set_from_Routine_Diagnostics_Nature_s41597-023-02422-6.pdf",
     "LiteratureReview/Machine_Learning_and_Deep_Learning_Techniques_for_Breast_Cancer_Diagnosis_and_Classification_s00432-023-04956-z.pdf",
     "LiteratureReview/Deep_Learning_Based_Automatic_Immune_Cell_Detection_for_Immunohistochemistry_Images_springer_978-3-319-10581-9.pdf",
     "LiteratureReview/Unconfirmed 761063.crdownload",
     "LiteratureReview/The_utility_of_a_deep_learning-based_approach_in_Her-2_slash_neu_assessment_in_breast_cancer_elsevier_1-s2.0-S0957417423025538-main.pdf",
-    "LiteratureReview/Unconfirmed 387487.crdownload",
-    "LiteratureReview/HER2_Molecular_Marker_Scoring_Using_Transfer_Learning_and_Decision_Level_Fusion_s10278-021-00442-5.pdf",
-    "LiteratureReview/Immunohistochemical_HER2_Recognition_and_Analysis_of_Breast_Cancer_Based_on_Deep_Learning_diagnostics-13-00263-with-cover.pdf",
-    "Notes/Breast Cancer (HER2-positive).md",
-    "LiteratureReview/A_Systematic_Literature_Review_of_Breast_Cancer_Diagnosis_Using_Machine_Intelligence_Techniques_springer-s11831-022-09738-3.pdf",
-    "LiteratureReview/Unconfirmed 543385.crdownload"
+    "Notes/Breast Cancer (HER2-positive).md"
   ]
 }
