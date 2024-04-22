@@ -19,7 +19,7 @@ Reference slides: [Temporal Difference(TD) Methods](https://learn.ul.ie/d2l/le/l
 - Implement Cliff Walking Example using Sarsa and Q-learning.
 	- Or solve the cart pole problem by implementing Q-learning on a neural network architecture?
 - Work with the GYM environment.
-- Classic 
+- Classic control
 
 ---
 ### Potential Exam Questions:

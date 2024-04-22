@@ -11,6 +11,16 @@
             "id": "00abaf9ed8e4bdcd",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Assignment2/CS6482-DRL-Assign2-Sem2AY2324-v1.pdf"
+              }
+            }
+          },
+          {
+            "id": "0f9efa0ca0d26a36",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "Notes/Lecture 9 - DQN for Atari/15-04-2024 DQN Atari Architecture.md",
@@ -20,7 +30,7 @@
             }
           },
           {
-            "id": "764f68a2579793eb",
+            "id": "b7d5ead831fbb361",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,8 +40,43 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7d416136ff7a7cbf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Lecture 7 - RL - Policies/14-03-2024 Lecture 8 Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eef77abb0790a587",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Assessments.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "22fac3ef2e298d2a",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Notes/Images/Module Summary 1.png"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -97,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Lecture 9 - DQN for Atari/15-04-2024 DQN Atari Architecture.md",
+                "file": "Notes/Assessments.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Lecture 9 - DQN for Atari/15-04-2024 DQN Atari Architecture.md",
+                "file": "Notes/Assessments.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Lecture 9 - DQN for Atari/15-04-2024 DQN Atari Architecture.md"
+                "file": "Notes/Assessments.md"
               }
             }
           }
@@ -158,17 +203,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "00abaf9ed8e4bdcd",
+  "active": "eef77abb0790a587",
   "lastOpenFiles": [
+    "Notes/Images/Final exam pattern.png",
+    "Notes/Assessments.md",
+    "Notes/Lecture 11 -/22-04-2024 Policy Gradients.md",
+    "Notes/Images/Module Summary 2.png",
+    "Notes/Lecture 7 - RL - Policies/11-03-2024 Lecture 7 Notes.md",
+    "Notes/Images/Module Summary 1.png",
+    "Pasted image 20240422114710.png",
+    "Notes/Images/Pasted image 20240422112058.png",
+    "Notes/Lecture 10 -/18-04-2024.md",
+    "Notes/Lecture 11 -",
+    "Notes/Lecture 10 -",
+    "Notes/Lecture 4 -/19-02-2024 Lecture 4 Notes.md",
+    "Assignment2/CS6482-Assign2--RL-23007575_23052058.pdf",
+    "Assignment2/CS6482-Assign2--RL-23007575_23052058.pdf.crdownload",
+    "Notes/Lecture 6 - Reinforcement Learning/04-03-2024 Lecture 6 Notes.md",
+    "Notes/Lecture 7 - RL - Policies/14-03-2024 Lecture 8 Notes.md",
     "Notes/Lecture 8 - RL - continued/04-04-2024 Lecture 10 Notes.md",
     "Notes/Lecture 9 - DQN for Atari/15-04-2024 DQN Atari Architecture.md",
-    "Notes/Assessments.md",
+    "Assignment2/CS6482-DRL-Assign2-Sem2AY2324-v1.pdf",
     "Notes/Images/Pasted image 20240415102537.png",
     "Notes/Lecture 9 - DQN for Atari",
-    "Notes/Lecture 7 - RL - Policies/14-03-2024 Lecture 8 Notes.md",
-    "Notes/Lecture 7 - RL - Policies/11-03-2024 Lecture 7 Notes.md",
-    "Notes/Lecture 6 - Reinforcement Learning/04-03-2024 Lecture 6 Notes.md",
-    "Notes/Lecture 4 -/19-02-2024 Lecture 4 Notes.md",
     "Notes/Lecture 3 -/19-02-2024 Lecture 3 Notes.md",
     "Notes/Lecture 2 - MLPs/12-02-2024 Lecture 2 Notes.md",
     "Notes/Lecture 1 - Introduction, History of Learning and the Perceptron/Purpose of bias in a perceptron system.md",
@@ -180,21 +237,11 @@
     "Notes/Images/Perceptron architecture.png",
     "Notes/Images/Pasted image 20240304115650.png",
     "Notes/Images/Pasted image 20240219112422.png",
-    "Notes/Images/Biological neuron structure.png",
     "Notes/midterm_deep_reinf.pdf",
     "Notes/Lecture 8 - RL - continued",
     "Notes/Lecture 7 - RL - Policies",
     "Notes/Lecture 6 - Reinforcement Learning",
-    "Notes/Lecture 4 -",
-    "Notes/Lecture 3 -",
-    "Notes/Lecture 2 - MLPs",
-    "Notes/Lecture 1 - Introduction, History of Learning and the Perceptron",
-    "Notes/Images",
     "Assignment1/CS6482-Assign1-23007575-23052058.md",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/yin_yang/image_0060.jpg",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/yin_yang/image_0059.jpg",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/yin_yang/image_0058.jpg",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/yin_yang/image_0057.jpg",
     "Lecture 7 - RL - Policies/11-03-2024 Lecture 7 Notes.md",
     "Lecture 7 - RL - Policies/14-03-2024 Lecture 8 Notes.md",
     "Lecture 8 - RL - continued/Untitled.md",
@@ -204,8 +251,6 @@
     "Assessments.md",
     "Lecture 2 - MLPs/12-02-2024 Lecture 2 Notes.md",
     "Lecture 1 - Introduction, History of Learning and the Perceptron/29-01-2024 Lecture 1 Notes.md",
-    "Lecture 1 - Introduction, History of Learning and the Perceptron/Lecture 1 - Introduction, Perceptrion.canvas",
-    "Lecture 1 - Introduction, History of Learning and the Perceptron/Physical Symbol System Hypothesis (PSSH).md",
-    "Lecture 1 - Introduction, History of Learning and the Perceptron/Purpose of bias in a perceptron system.md"
+    "Lecture 1 - Introduction, History of Learning and the Perceptron/Lecture 1 - Introduction, Perceptrion.canvas"
   ]
 }
