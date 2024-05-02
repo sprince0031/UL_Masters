@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Classification Web App</title>
+    <!-- Include Material Design CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <style>
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        #output {
+            display: block;
+            max-width: 100%;
+            margin: 10px 0;
+        }
+
+        #feedbackForm {
+            margin-top: 20px;
+        }
+
+        #customInput {
+            margin-top: 10px;
+        }
+
+        #successMessage {
+            margin-top: 20px;
+        }
+
+        /* Dark theme styles */
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #333;
+                color: #fff;
+            }
+
+            .container {
+                background-color: #444;
+            }
+
+            input[type="text"], input[type="file"], select {
+                color: #fff;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>Image Classification Web App</h3>
+        <form id="imageForm">
+            <div class="file-field input-field">
+                <div class="btn">
+                    <span>Upload Image</span>
+                    <input type="file" accept="image/*" id="imageInput" onchange="loadFile(event)">
+                </div>
+                <div class="file-path-wrapper">
+                    <input class="file-path validate" type="text">
+                </div>
+            </div>
+            <img id="output">
+            <button class="btn waves-effect waves-light" type="submit">Classify</button>
+        </form>
+        <div id="result"></div>
+        <div id="feedbackForm" style="display: none;">
+            <p>Is the classification correct?</p>
+            <label>
+                <input type="radio" name="feedback" value="correct">
+                <span>Correct</span>
+            </label>
+            <label>
+                <input type="radio" name="feedback" value="incorrect">
+                <span>Incorrect</span>
+            </label>
+            <select id="dropdown">
+                <option value="item1">Item 1</option>
+                <option value="item2">Item 2</option>
+                <option value="custom">Custom</option>
+            </select>
+            <input type="text" id="customInput" style="display: none;">
+            <button class="btn waves-effect waves-light" id="feedbackSubmit">Submit Feedback</button>
+        </div>
+        <div id="successMessage" style="display: none;">
+            <p>Feedback submitted successfully!</p>
+        </div>
+    </div>
+
+    <!-- Include Material Design JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        var loadFile = function(event) {
+            var image = document.getElementById('output');
+            image.src = URL.createObjectURL(event.target.files[0]);
+        };
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const imageForm = document.getElementById('imageForm');
+            const resultDiv = document.getElementById('result');
+            const feedbackForm = document.getElementById('feedbackForm');
+            const feedbackSubmit = document.getElementById('feedbackSubmit');
+            const dropdown = document.getElementById('dropdown');
+            const customInput = document.getElementById('customInput');
+            const successMessage = document.getElementById('successMessage');
+
+            imageForm.addEventListener('submit', async (e) => {
+                e.preventDefault();
+                const imageInput = document.getElementById('imageInput');
+                const formData = new FormData();
+                formData.append('image', imageInput.files[0]);
+
+                // Make API POST request here and handle response
+                // Example: fetch('/api/classify', { method: 'POST', body: formData })
+                // Parse the response and display it in resultDiv
+
+                // For demonstration purposes, let's assume the response is "Cat"
+                resultDiv.textContent = 'Classification: Cat';
+                feedbackForm.style.display = 'block';
+            });
+
+            dropdown.addEventListener('change', () => {
+                if (dropdown.value === 'custom') {
+                    customInput.style.display = 'block';
+                } else {
+                    customInput.style.display = 'none';
+                }
+            });
+
+            feedbackSubmit.addEventListener('click', async () => {
+                const feedback = document.querySelector('input[name="feedback"]:checked').value;
+                const selectedValue = dropdown.value === 'custom' ? customInput.value : dropdown.value;
+
+                // Make another API POST request with feedback and selectedValue
+                // Example: fetch('/api/feedback', { method: 'POST', body: { feedback, selectedValue } })
+                // Handle success response and display successMessage
+
+                // For demonstration purposes, let's assume success
+                successMessage.style.display = 'block';
+            });
+        });
+    </script>
+</body>
+</html>
