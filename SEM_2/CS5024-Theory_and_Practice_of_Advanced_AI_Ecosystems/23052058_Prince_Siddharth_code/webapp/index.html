@@ -79,6 +79,9 @@
             <select id="dropdown">
                 <option value="item1">Item 1</option>
                 <option value="item2">Item 2</option>
+                <option value="item1">Item 3</option>
+                <option value="item2">Item 4</option>
+                <option value="item1">Item 5</option>
                 <option value="custom">Custom</option>
             </select>
             <input type="text" id="customInput" style="display: none;">
@@ -97,10 +100,13 @@
             image.src = URL.createObjectURL(event.target.files[0]);
         };
 
+        var classification = {};
+
         document.addEventListener('DOMContentLoaded', function() {
             const imageForm = document.getElementById('imageForm');
             const resultDiv = document.getElementById('result');
             const feedbackForm = document.getElementById('feedbackForm');
+            const radios = document.querySelectorAll('input[name="feedback"]');
             const feedbackSubmit = document.getElementById('feedbackSubmit');
             const dropdown = document.getElementById('dropdown');
             const customInput = document.getElementById('customInput');
@@ -109,16 +115,59 @@
             imageForm.addEventListener('submit', async (e) => {
                 e.preventDefault();
                 const imageInput = document.getElementById('imageInput');
+                // var reader = new FileReader();
+                // reader.onload = function() {
+                //     var base64String = reader.result.replace("data:", "")
+                //         .replace(/^.+,/, "");
+
+                //     console.log(base64String);
+                // }
+                // base64Image = reader.readAsDataURL(imageInput.files[0]);
                 const formData = new FormData();
+                // console.log('base64Image', base64Image);
+                console.log('Image input:', imageInput.files[0]);
                 formData.append('image', imageInput.files[0]);
+                console.log('Form data:', formData);
 
-                // Make API POST request here and handle response
-                // Example: fetch('/api/classify', { method: 'POST', body: formData })
-                // Parse the response and display it in resultDiv
+                // Make API POST request to AWS Lambda function
+                const lambdaResponse = await fetch('https://t8pqzch4ol.execute-api.us-east-1.amazonaws.com/dev/classifyImage', {
+                    method: 'POST',
+                    headers: {
+                        'Access-Control-Allow-Origin': '*'
+                    },
+                    body: formData
+                });
 
-                // For demonstration purposes, let's assume the response is "Cat"
-                resultDiv.textContent = 'Classification: Cat';
-                feedbackForm.style.display = 'block';
+                // Handle response from AWS Lambda function
+                if (lambdaResponse.ok) {
+                    const lambdaData = await lambdaResponse.json();
+                    console.log('Lambda data:', lambdaData); // lambdaData is an array of top 5 predictions returned by sagemakerEndpointInvoker Lambda function
+                    resultDiv.textContent = `Classifications (top 5): ${lambaData[0]}`; // Only show the prediction with most confidence as the class first
+                    classification.predictions = lambdaData;
+
+                    // Display feedback form
+                    feedbackForm.style.display = 'block';
+                } else {
+                    console.error('Error: Failed to classify image');
+                }
+            });
+
+            // Adding event listeners to radio buttons to show the label drop down if human deems the original to be false.
+            radios.forEach(function(radio) {
+                radio.addEventListener('change', () => {
+                    const feedback = document.querySelector('input[name="feedback"]:checked').value;
+                    if (feedback === 'incorrect') {
+                        var options = '';
+                        for (let i=0; i < classification.predictions.length; i++) { // Show all the top 5 predicted classes returned by the model in case it is close.
+                            options += `<option value="item${i}">${classification.predictions[i]}</option>`;
+                        }
+                        options += '<option value="custom">Custom</option>'; // also allow a custom user entered label input if none of the 5 predicted class labels are deemed to be a match
+                        dropdown.innerHTML = options;
+                        dropdown.style.display = 'block';
+                    } else {
+                        dropdown.style.display = 'none';
+                    }
+                })
             });
 
             dropdown.addEventListener('change', () => {
@@ -130,15 +179,32 @@
             });
 
             feedbackSubmit.addEventListener('click', async () => {
-                const feedback = document.querySelector('input[name="feedback"]:checked').value;
                 const selectedValue = dropdown.value === 'custom' ? customInput.value : dropdown.value;
-
+                classification.humanData = {
+                    feedback: feedback,
+                    humanLabel: selectedValue
+                }
+                
+                
                 // Make another API POST request with feedback and selectedValue
-                // Example: fetch('/api/feedback', { method: 'POST', body: { feedback, selectedValue } })
-                // Handle success response and display successMessage
+                // Make API POST request to AWS Lambda function
+                const lambdaResponse = await fetch('https://t8pqzch4ol.execute-api.us-east-1.amazonaws.com/dev/humanLabel', {
+                    method: 'POST',
+                    headers: {
+                        'Access-Control-Allow-Origin': '*'
+                    },
+                    body: json.stringify(classification)
+                });
 
-                // For demonstration purposes, let's assume success
-                successMessage.style.display = 'block';
+                // Handle response from AWS Lambda function
+                if (lambdaResponse.ok) {
+                    const lambdaData = await lambdaResponse.json();
+                    console.log('Lambda data:', lambdaData);
+                    successMessage.style.display = 'block';
+                } else {
+                    console.error('Error: Failed to submit human feedback');
+                }
+                
             });
         });
     </script>

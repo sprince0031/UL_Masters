@@ -1,3 +1,12 @@
 [submodule "SEM_2/CE6012-Artificial_Intelligence_and_Machine_Learning/e-tivity1"]
 	path = SEM_2/CE6012-Artificial_Intelligence_and_Machine_Learning/e-tivity1
 	url = https://gitlab.com/ul31/mscai/ce6002-ce6012/group5/e-tivity1.git
+[submodule "SEM_2/CS5024-Theory_and_Practice_of_Advanced_AI_Ecosystems/SageMakerRetrainPoC"]
+	path = SEM_2/CS5024-Theory_and_Practice_of_Advanced_AI_Ecosystems/SageMakerRetrainPoC
+	url = https://github.com/sprince0031/SageMakerRetrainPoC.git
+[submodule "SEM_2/CE6012-Artificial_Intelligence_and_Machine_Learning/e-tivity2"]
+	path = SEM_2/CE6012-Artificial_Intelligence_and_Machine_Learning/e-tivity2
+	url = https://gitlab.com/ul31/mscai/ce6002-ce6012/group5/e-tivity2.git
+[submodule "SEM_2/CE6012-Artificial_Intelligence_and_Machine_Learning/e-tivity3"]
+	path = SEM_2/CE6012-Artificial_Intelligence_and_Machine_Learning/e-tivity3
+	url = https://gitlab.com/ul31/mscai/ce6002-ce6012/group5/e-tivity3.git
