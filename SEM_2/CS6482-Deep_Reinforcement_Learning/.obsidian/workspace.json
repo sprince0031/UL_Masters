@@ -4,40 +4,79 @@
     "type": "split",
     "children": [
       {
-        "id": "4cc18530c73cac32",
+        "id": "06b15b0476d5a743",
         "type": "tabs",
-        "dimension": 59.22174840085288,
         "children": [
           {
-            "id": "d6fc26baf5f0b04b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Assignment1/CS6482-Assign1-23007575-23052058.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "0815984131bba4bd",
-        "type": "tabs",
-        "dimension": 40.77825159914712,
-        "children": [
-          {
-            "id": "99a89f2599edd812",
+            "id": "00abaf9ed8e4bdcd",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Assignment1/CS6482-DRL-Assign1-Sem2AY2324.pdf"
+                "file": "Assignment2/CS6482-DRL-Assign2-Sem2AY2324-v1.pdf"
+              }
+            }
+          },
+          {
+            "id": "0f9efa0ca0d26a36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Lecture 9 - DQN for Atari/15-04-2024 DQN Atari Architecture.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b7d5ead831fbb361",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Lecture 8 - RL - continued/04-04-2024 Lecture 10 Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7d416136ff7a7cbf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Lecture 7 - RL - Policies/14-03-2024 Lecture 8 Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eef77abb0790a587",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Assessments.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "22fac3ef2e298d2a",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Notes/Images/Module Summary 1.png"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -87,7 +126,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 311.5
   },
   "right": {
     "id": "9d42bf3d4024117f",
@@ -103,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Assignment1/CS6482-DRL-Assign1-Sem2AY2324.pdf",
+                "file": "Notes/Assessments.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Assignment1/CS6482-DRL-Assign1-Sem2AY2324.pdf",
+                "file": "Notes/Assessments.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Assignment1/CS6482-DRL-Assign1-Sem2AY2324.pdf"
+                "file": "Notes/Assessments.md"
               }
             }
           }
@@ -164,34 +203,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "99a89f2599edd812",
+  "active": "eef77abb0790a587",
   "lastOpenFiles": [
-    "Assignment1/CS6482-Assign1-23007575-23052058.md",
-    "Assignment1/ZFNET-Assign1-23007575-23052058.ipynb",
-    "Assignment1/Assignment 1/ZFNET-Assign1-23007575-23052058.ipynb",
-    "Assignment1/Assignment 1/zfnet_caltech101.pth",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/yin_yang/image_0060.jpg",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/yin_yang/image_0059.jpg",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/yin_yang/image_0058.jpg",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/yin_yang/image_0057.jpg",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/yin_yang/image_0056.jpg",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/yin_yang/image_0055.jpg",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/yin_yang/image_0054.jpg",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/yin_yang/image_0053.jpg",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/yin_yang/image_0052.jpg",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/yin_yang/image_0051.jpg",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/yin_yang",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/wrench",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/windsor_chair",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/wild_cat",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/wheelchair",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/water_lilly",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/watch",
-    "Notes/Lecture 2 - MLPs/12-02-2024 Lecture 2 Notes.md",
-    "Notes/Lecture 1 - Introduction, History of Learning and the Perceptron/POE (Phylogenetic, Ontogenetic and Epicgenetic) learning model.md",
+    "Notes/Images/Final exam pattern.png",
     "Notes/Assessments.md",
-    "Notes/Lecture 1 - Introduction, History of Learning and the Perceptron/29-01-2024 Lecture 1 Notes.md",
+    "Notes/Lecture 11 -/22-04-2024 Policy Gradients.md",
+    "Notes/Images/Module Summary 2.png",
+    "Notes/Lecture 7 - RL - Policies/11-03-2024 Lecture 7 Notes.md",
+    "Notes/Images/Module Summary 1.png",
+    "Pasted image 20240422114710.png",
+    "Notes/Images/Pasted image 20240422112058.png",
+    "Notes/Lecture 10 -/18-04-2024.md",
+    "Notes/Lecture 11 -",
+    "Notes/Lecture 10 -",
+    "Notes/Lecture 4 -/19-02-2024 Lecture 4 Notes.md",
+    "Assignment2/CS6482-Assign2--RL-23007575_23052058.pdf",
+    "Assignment2/CS6482-Assign2--RL-23007575_23052058.pdf.crdownload",
+    "Notes/Lecture 6 - Reinforcement Learning/04-03-2024 Lecture 6 Notes.md",
+    "Notes/Lecture 7 - RL - Policies/14-03-2024 Lecture 8 Notes.md",
+    "Notes/Lecture 8 - RL - continued/04-04-2024 Lecture 10 Notes.md",
+    "Notes/Lecture 9 - DQN for Atari/15-04-2024 DQN Atari Architecture.md",
+    "Assignment2/CS6482-DRL-Assign2-Sem2AY2324-v1.pdf",
+    "Notes/Images/Pasted image 20240415102537.png",
+    "Notes/Lecture 9 - DQN for Atari",
+    "Notes/Lecture 3 -/19-02-2024 Lecture 3 Notes.md",
+    "Notes/Lecture 2 - MLPs/12-02-2024 Lecture 2 Notes.md",
+    "Notes/Lecture 1 - Introduction, History of Learning and the Perceptron/Purpose of bias in a perceptron system.md",
+    "Notes/Lecture 1 - Introduction, History of Learning and the Perceptron/Physical Symbol System Hypothesis (PSSH).md",
+    "Notes/Lecture 1 - Introduction, History of Learning and the Perceptron/POE (Phylogenetic, Ontogenetic and Epicgenetic) learning model.md",
     "Notes/Lecture 1 - Introduction, History of Learning and the Perceptron/Lecture 1 - Introduction, Perceptrion.canvas",
+    "Notes/Lecture 1 - Introduction, History of Learning and the Perceptron/29-01-2024 Lecture 1 Notes.md",
+    "Notes/Images/Rowley's MLP Architecture for face detection.png",
+    "Notes/Images/Perceptron architecture.png",
+    "Notes/Images/Pasted image 20240304115650.png",
+    "Notes/Images/Pasted image 20240219112422.png",
+    "Notes/midterm_deep_reinf.pdf",
+    "Notes/Lecture 8 - RL - continued",
+    "Notes/Lecture 7 - RL - Policies",
+    "Notes/Lecture 6 - Reinforcement Learning",
+    "Assignment1/CS6482-Assign1-23007575-23052058.md",
     "Lecture 7 - RL - Policies/11-03-2024 Lecture 7 Notes.md",
     "Lecture 7 - RL - Policies/14-03-2024 Lecture 8 Notes.md",
     "Lecture 8 - RL - continued/Untitled.md",
@@ -201,13 +251,6 @@
     "Assessments.md",
     "Lecture 2 - MLPs/12-02-2024 Lecture 2 Notes.md",
     "Lecture 1 - Introduction, History of Learning and the Perceptron/29-01-2024 Lecture 1 Notes.md",
-    "Lecture 1 - Introduction, History of Learning and the Perceptron/Lecture 1 - Introduction, Perceptrion.canvas",
-    "Lecture 1 - Introduction, History of Learning and the Perceptron/Physical Symbol System Hypothesis (PSSH).md",
-    "Lecture 1 - Introduction, History of Learning and the Perceptron/Purpose of bias in a perceptron system.md",
-    "AI Winters.md",
-    "Lecture 1 - Introduction, History of Learning and the Perceptron/POE (Phylogenetic, Ontogenetic and Epicgenetic) learning model.md",
-    "().md",
-    "Does the formation of a hard cyst like outer layer in a bacterium trying to survive in the Arctic indicate it exhibiting intelligence?.md",
-    "POE (Phylogenetic, Ontogenetic and Epicgenetic) learning model][[.md"
+    "Lecture 1 - Introduction, History of Learning and the Perceptron/Lecture 1 - Introduction, Perceptrion.canvas"
   ]
 }
