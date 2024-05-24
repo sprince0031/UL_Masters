@@ -1,3 +1,4 @@
+
 # HER2 Molecular Marker Scoring Using Transfer Learning and Decision Level Fusion | Notes and inferences
 **Paper reference:**
 > HER2 Molecular Marker Scoring Using Transfer Learning and Decision Level Fusion
@@ -20,7 +21,7 @@
 ## Model architectures
 Below screenshot from the paper represents the pre-trained DL model architectures that were used.
 
-![[HER2 Molecular Marking with transfer learning - DL model architectures.png]]
+![HER2 Molecular Marking with transfer learning - DL model architectures.png](https://github.com/sprince0031/UL_Masters/blob/545e017420e138a087298c68d37390f9ad5b8d2c/Project/Images/HER2%20Molecular%20Marking%20with%20transfer%20learning%20-%20DL%20model%20architectures.png)
 
 
 ## How does the proposed approach compare to other methods in terms of accuracy?
