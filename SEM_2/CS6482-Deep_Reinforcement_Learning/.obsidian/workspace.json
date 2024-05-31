@@ -4,36 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4cc18530c73cac32",
+        "id": "49cab43c6e5736ee",
         "type": "tabs",
-        "dimension": 59.22174840085288,
         "children": [
           {
-            "id": "d6fc26baf5f0b04b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Assignment1/CS6482-Assign1-23007575-23052058.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "0815984131bba4bd",
-        "type": "tabs",
-        "dimension": 40.77825159914712,
-        "children": [
-          {
-            "id": "99a89f2599edd812",
+            "id": "fe30f1ebde5a972e",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Assignment1/CS6482-DRL-Assign1-Sem2AY2324.pdf"
+                "file": "Assignment3/CS6482-Assign3-Spec-S2AY2324-v1.pdf"
               }
             }
           }
@@ -87,7 +67,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "9d42bf3d4024117f",
@@ -103,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Assignment1/CS6482-DRL-Assign1-Sem2AY2324.pdf",
+                "file": "Assignment3/CS6482-Assign3-Spec-S2AY2324-v1.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Assignment1/CS6482-DRL-Assign1-Sem2AY2324.pdf",
+                "file": "Assignment3/CS6482-Assign3-Spec-S2AY2324-v1.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Assignment1/CS6482-DRL-Assign1-Sem2AY2324.pdf"
+                "file": "Assignment3/CS6482-Assign3-Spec-S2AY2324-v1.pdf"
               }
             }
           }
@@ -164,34 +145,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "99a89f2599edd812",
+  "active": "fe30f1ebde5a972e",
   "lastOpenFiles": [
-    "Assignment1/CS6482-Assign1-23007575-23052058.md",
-    "Assignment1/ZFNET-Assign1-23007575-23052058.ipynb",
-    "Assignment1/Assignment 1/ZFNET-Assign1-23007575-23052058.ipynb",
-    "Assignment1/Assignment 1/zfnet_caltech101.pth",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/yin_yang/image_0060.jpg",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/yin_yang/image_0059.jpg",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/yin_yang/image_0058.jpg",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/yin_yang/image_0057.jpg",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/yin_yang/image_0056.jpg",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/yin_yang/image_0055.jpg",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/yin_yang/image_0054.jpg",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/yin_yang/image_0053.jpg",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/yin_yang/image_0052.jpg",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/yin_yang/image_0051.jpg",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/yin_yang",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/wrench",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/windsor_chair",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/wild_cat",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/wheelchair",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/water_lilly",
-    "Assignment1/Assignment 1/datasets/caltech101/101_ObjectCategories/watch",
-    "Notes/Lecture 2 - MLPs/12-02-2024 Lecture 2 Notes.md",
-    "Notes/Lecture 1 - Introduction, History of Learning and the Perceptron/POE (Phylogenetic, Ontogenetic and Epicgenetic) learning model.md",
-    "Notes/Assessments.md",
+    "Assignment3/CS6482-Assign3--RL-23007575_23052058.docx",
+    "Assignment3/Unconfirmed 7548.crdownload",
+    "Assignment3/test.ipynb",
+    "Assignment3/Unconfirmed 305149.crdownload",
+    "Assignment3/CS6482-Assign3--RL-Test.ipynb",
+    "Notes/Lecture 1 - Introduction, History of Learning and the Perceptron/Physical Symbol System Hypothesis (PSSH).md",
+    "PastQuestionPapers/QandA Final Paper-2.pdf",
+    "Notes/Lecture 11 -/22-04-2024 Policy Gradients.md",
+    "Notes/Lecture 10 -/18-04-2024.md",
+    "Notes/Lecture 9 - DQN for Atari/15-04-2024 DQN Atari Architecture.md",
+    "PastQuestionPapers/CS6482-Midterm_SOLUTIONS-S2AY2324.pdf",
+    "PastQuestionPapers/CS6482-Final-Sem2AY2223.pdf",
+    "Notes/Lecture 8 - RL - continued/04-04-2024 Lecture 10 Notes.md",
     "Notes/Lecture 1 - Introduction, History of Learning and the Perceptron/29-01-2024 Lecture 1 Notes.md",
+    "Notes/Lecture 1 - Introduction, History of Learning and the Perceptron/Purpose of bias in a perceptron system.md",
+    "Notes/Lecture 2 - MLPs/12-02-2024 Lecture 2 Notes.md",
+    "Notes/Lecture 3 -/19-02-2024 Lecture 3 Notes.md",
+    "Notes/Lecture 4 -/19-02-2024 Lecture 4 Notes.md",
+    "Notes/Lecture 7 - RL - Policies/14-03-2024 Lecture 8 Notes.md",
+    "Notes/Lecture 7 - RL - Policies/11-03-2024 Lecture 7 Notes.md",
+    "Notes/Lecture 6 - Reinforcement Learning/04-03-2024 Lecture 6 Notes.md",
+    "Notes/Assessments.md",
+    "PastQuestionPapers/CS6482-Final-Sem2AY2122.pdf",
+    "PastQuestionPapers/CS4287-SampleMidterm-S1AY2223.pdf",
+    "Notes/Images/Module Summary 1.png",
     "Notes/Lecture 1 - Introduction, History of Learning and the Perceptron/Lecture 1 - Introduction, Perceptrion.canvas",
+    "PastQuestionPapers/CS6482-Midterm_SOLUTIONS-S2AY2324.pdf.crdownload",
+    "Notes/Images/Final exam pattern.png",
+    "Notes/Images/Module Summary 2.png",
+    "Pasted image 20240422114710.png",
+    "Notes/Images/Pasted image 20240422112058.png",
+    "Notes/Images/Pasted image 20240415102537.png",
+    "Notes/Lecture 1 - Introduction, History of Learning and the Perceptron/POE (Phylogenetic, Ontogenetic and Epicgenetic) learning model.md",
+    "Notes/Images/Rowley's MLP Architecture for face detection.png",
+    "Notes/Images/Perceptron architecture.png",
+    "Notes/Images/Pasted image 20240304115650.png",
+    "Notes/Images/Pasted image 20240219112422.png",
+    "Assignment1/CS6482-Assign1-23007575-23052058.md",
     "Lecture 7 - RL - Policies/11-03-2024 Lecture 7 Notes.md",
     "Lecture 7 - RL - Policies/14-03-2024 Lecture 8 Notes.md",
     "Lecture 8 - RL - continued/Untitled.md",
@@ -201,13 +194,6 @@
     "Assessments.md",
     "Lecture 2 - MLPs/12-02-2024 Lecture 2 Notes.md",
     "Lecture 1 - Introduction, History of Learning and the Perceptron/29-01-2024 Lecture 1 Notes.md",
-    "Lecture 1 - Introduction, History of Learning and the Perceptron/Lecture 1 - Introduction, Perceptrion.canvas",
-    "Lecture 1 - Introduction, History of Learning and the Perceptron/Physical Symbol System Hypothesis (PSSH).md",
-    "Lecture 1 - Introduction, History of Learning and the Perceptron/Purpose of bias in a perceptron system.md",
-    "AI Winters.md",
-    "Lecture 1 - Introduction, History of Learning and the Perceptron/POE (Phylogenetic, Ontogenetic and Epicgenetic) learning model.md",
-    "().md",
-    "Does the formation of a hard cyst like outer layer in a bacterium trying to survive in the Arctic indicate it exhibiting intelligence?.md",
-    "POE (Phylogenetic, Ontogenetic and Epicgenetic) learning model][[.md"
+    "Lecture 1 - Introduction, History of Learning and the Perceptron/Lecture 1 - Introduction, Perceptrion.canvas"
   ]
 }
