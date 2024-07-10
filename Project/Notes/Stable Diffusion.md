@@ -41,3 +41,11 @@ where,
 ## U-NET
 Paper ref: https://link.springer.com/chapter/10.1007/978-3-319-24574-4_28
 ![[U-NET_Architecture.png]]
+
+## Text-to-Image overview
+![[text-to-image-overview.png]]
+
+## Image-to-Image overview
+- The more noise is added to the input image, the more freedom the model has to alter the image. 
+- For the use case of digital pathology, initial intuition suggests to me that there would need to be enough noise such that the outlines of cells and the nuclei are visible in the very least. This is a hyper-parameter that will need to be tuned.
+![[image-to-image_overview.png]]
