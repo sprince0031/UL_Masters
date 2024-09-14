@@ -6,7 +6,8 @@ Learning/reference material:
 ## What is it?
 - On a very basic level, it is adding (Gaussian) noise to an image in steps and training a network to get the original image back from the noise. Then we can use random noise and get the model to generate an image that we want.
 - Network is probably an encoder-decoder network.
-![[StableDiffusionProcessRepresentation_Simple.png]]
+
+![StableDiffusionProcessRepresentation_Simple.png](/Project/Images/StableDiffusionProcessRepresentation_Simple.png)
 
 ## Forward process
 The _forward process_ or _diffusion process_ is a Markov chain that gradually adds Gaussian noise to the data according to a variance schedule (amount of noise added at each step) $\beta_{1}, ... ,\beta_{T}$ where $\beta \implies amount\ of\ noise$.
@@ -40,12 +41,13 @@ where,
 
 ## U-NET
 Paper ref: https://link.springer.com/chapter/10.1007/978-3-319-24574-4_28
-![[U-NET_Architecture.png]]
+
+![U-NET_Architecture.png](/Project/Images/U-NET_Architecture.png)
 
 ## Text-to-Image overview
-![[text-to-image-overview.png]]
+![text-to-image-overview.png](/Project/Images/text-to-image-overview.png)
 
 ## Image-to-Image overview
 - The more noise is added to the input image, the more freedom the model has to alter the image. 
-- For the use case of digital pathology, initial intuition suggests to me that there would need to be enough noise such that the outlines of cells and the nuclei are visible in the very least. This is a hyper-parameter that will need to be tuned.
-![[image-to-image_overview.png]]
+- For the use case of digital pathology, initial intuition suggests to me that there would need to be enough noise such that the outlines of cells and the nuclei are visible in the very least. This is a hyper-parameter that will need to be tuned.  
+![image-to-image_overview.png](/Project/Images/image-to-image_overview.png)

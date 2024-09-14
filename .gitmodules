@@ -10,3 +10,9 @@
 [submodule "SEM_2/CE6012-Artificial_Intelligence_and_Machine_Learning/e-tivity3"]
 	path = SEM_2/CE6012-Artificial_Intelligence_and_Machine_Learning/e-tivity3
 	url = https://gitlab.com/ul31/mscai/ce6002-ce6012/group5/e-tivity3.git
+[submodule "Project/Code/HE-IHC-Generator-ControlNet"]
+	path = Project/Code/HE-IHC-Generator-ControlNet
+	url = https://github.com/sprince0031/HE-IHC-Generator-ControlNet.git
+[submodule "Project/Masters-Thesis-Dissertation"]
+	path = Project/Masters-Thesis-Dissertation
+	url = https://github.com/sprince0031/Masters-Thesis-Dissertation.git
